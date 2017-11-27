@@ -11,8 +11,6 @@ I hope that will go well.-->
 
 </head>
 <body id="body">
-	<div class="card">
-		
-	</div>
+	<h1>Hello</h1>
 </body>
 </html>
