@@ -1,0 +1,191 @@
+.container {
+	display: grid;
+	grid-template-columns: 20% 80%;
+	grid-gap: 0;
+	margin: 0;
+	max-width: 900px;
+	padding: 0 1.5em;
+
+	
+
+
+}
+	.main {
+		display: grid;
+		grid-template-rows: 20% 60% 30%;
+		
+
+	}	
+
+
+	#sidebar {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	margin: 0;
+	margin-top: 7em;
+	margin-bottom: 25em;
+	justify-content: right;
+	grid-auto-columns: minmax(100px, auto);
+	
+	}
+		.box1 {
+		background-color: blue;	
+		
+
+	}
+
+		.box2 {
+		background-color: red;
+		padding-top: 0;
+	}
+	
+		.box3 {
+		background-color: green;
+	}
+		.box1, .box2, .box3 {
+		width: 70px;
+		height: 70px;
+
+
+	}
+		#sidebar p {
+		font-size: 20px;
+		line-height: 0;
+		text-align: center;
+	}
+
+	#header {
+	border-bottom: 1px red solid;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin-top: 1em;
+	overflow: hidden;
+	 
+
+  	
+  	
+}
+		#header img {
+		max-width: 80px;
+		max-height: 80px;
+		margin-top: 0px;
+		line-height: 0px;
+		
+	}
+		
+
+		 
+
+	
+	
+		.name {
+		font-size: 55px;
+		text-align: right;
+		margin-top: 0.4em;
+		line-height: 0px;
+		font-family: 'Spectral SC', serif;
+		font-weight: lighter;
+
+		
+	}
+		.posit {
+		text-align: right;
+		line-height: 0;
+		padding-top: 0em;
+		margin-top: 0em;
+		font-size: 25px;
+		text-transform: uppercase;
+		font-weight: lighter;
+}
+
+	.jumbo img {
+	max-width: 100%;
+	height: auto;
+
+	
+
+	
+	
+}
+
+	.jumbo {
+		padding-top: 1em;
+		padding-bottom: 1em;
+
+
+		
+	
+	}
+
+	.works h2 {
+		font-size: 55px;
+		line-height: 0;
+		color: gray;
+
+	}
+
+	.projects {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		
+		grid-gap: 3em;
+		padding-top: 0;
+
+	}
+
+	.projects img {
+		width: 320px;
+		height: 200px;
+	}
+
+	
+	
+	.projects p {
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 38px;
+		line-height: 0;
+		}
+
+		
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	
+}
+
+
+@media screen 
+and (min-width : 321px)
+and (max-width : 320px) {
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+	.jumbo {max-width: 650px;}
+}
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+}
+
+
+@media only screen 
+and (min-width : 1224px) {
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+}
+
+@media only screen 
+and (min-width : 1824px) {
+}
